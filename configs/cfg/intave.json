@@ -1,4 +1,9 @@
 {
+  "MoreKnockback": {
+    "Enabled": false,
+    "Keybind": 0,
+    "Settings": {}
+  },
   "Backtrack": {
     "Enabled": true,
     "Keybind": 0,
@@ -31,10 +36,14 @@
       "Smoothing mode": "Adaptive"
     }
   },
-  "MoreKnockback": {
-    "Enabled": false,
+  "Velocity": {
+    "Enabled": true,
     "Keybind": 0,
-    "Settings": {}
+    "Settings": {
+      "Mode": "Intave",
+      "Horizontal": "0.0",
+      "Vertical": "0.0"
+    }
   },
   "TargetStrafe": {
     "Enabled": false,
@@ -51,13 +60,30 @@
       "Reach chance": "95.0"
     }
   },
-  "Velocity": {
+  "Fly": {
     "Enabled": false,
+    "Keybind": 33,
+    "Settings": {
+      "Mode": "Vanilla",
+      "Horizontal speed": "0.3",
+      "Vertical speed": "0.7",
+      "Instant stop": "true",
+      "Fake damage": "false"
+    }
+  },
+  "Speed": {
+    "Enabled": false,
+    "Keybind": 44,
+    "Settings": {
+      "Mode": "Legit",
+      "Motion speed": "0.5"
+    }
+  },
+  "CorrectMovement": {
+    "Enabled": true,
     "Keybind": 0,
     "Settings": {
-      "Mode": "Simple",
-      "Horizontal": "0.0",
-      "Vertical": "0.0"
+      "Mode": "Silent"
     }
   },
   "NoSlowdown": {
@@ -70,32 +96,6 @@
       "Bow mode": "Intave",
       "Forward multiplier": "1.0",
       "Strafe multiplier": "1.0"
-    }
-  },
-  "Fly": {
-    "Enabled": false,
-    "Keybind": 33,
-    "Settings": {
-      "Mode": "Vanilla",
-      "Horizontal speed": "0.3",
-      "Vertical speed": "0.7",
-      "Instant stop": "true",
-      "Fake damage": "false"
-    }
-  },
-  "CorrectMovement": {
-    "Enabled": true,
-    "Keybind": 0,
-    "Settings": {
-      "Mode": "Silent"
-    }
-  },
-  "Speed": {
-    "Enabled": false,
-    "Keybind": 44,
-    "Settings": {
-      "Mode": "Strafe",
-      "Motion speed": "0.5"
     }
   },
   "Blink": {
@@ -111,19 +111,8 @@
     "Keybind": 0,
     "Settings": {}
   },
-  "ChestStealer": {
-    "Enabled": false,
-    "Keybind": 0,
-    "Settings": {
-      "Delay": "66.0",
-      "Starting delay": "50.0",
-      "Reverse": "false",
-      "Auto close": "true",
-      "Title check": "true"
-    }
-  },
-  "InventoryMove": {
-    "Enabled": false,
+  "FastPlace": {
+    "Enabled": true,
     "Keybind": 0,
     "Settings": {}
   },
@@ -140,18 +129,6 @@
       "Packet sneak": "true",
       "Sneak every X block": "4.0"
     }
-  },
-  "NoFall": {
-    "Enabled": false,
-    "Keybind": 0,
-    "Settings": {
-      "Mode": "Verus"
-    }
-  },
-  "FastPlace": {
-    "Enabled": true,
-    "Keybind": 0,
-    "Settings": {}
   },
   "InventoryManager": {
     "Enabled": false,
@@ -179,6 +156,29 @@
       "Keep X ThrowAbles": "3.0"
     }
   },
+  "NoFall": {
+    "Enabled": false,
+    "Keybind": 0,
+    "Settings": {
+      "Mode": "Verus"
+    }
+  },
+  "ChestStealer": {
+    "Enabled": false,
+    "Keybind": 0,
+    "Settings": {
+      "Delay": "66.0",
+      "Starting delay": "50.0",
+      "Reverse": "false",
+      "Auto close": "true",
+      "Title check": "true"
+    }
+  },
+  "InventoryMove": {
+    "Enabled": false,
+    "Keybind": 0,
+    "Settings": {}
+  },
   "ESP": {
     "Enabled": true,
     "Keybind": 0,
@@ -193,11 +193,6 @@
       "Render for self": "true"
     }
   },
-  "ItemPhysics": {
-    "Enabled": true,
-    "Keybind": 0,
-    "Settings": {}
-  },
   "ItemModel": {
     "Enabled": true,
     "Keybind": 0,
@@ -207,22 +202,6 @@
       "Item Z": "-0.69",
       "Item scale": "0.21",
       "Item angle": "41.0"
-    }
-  },
-  "AntiBlind": {
-    "Enabled": true,
-    "Keybind": 0,
-    "Settings": {
-      "Pumpkin overlay": "true"
-    }
-  },
-  "TargetDisplay": {
-    "Enabled": true,
-    "Keybind": 0,
-    "Settings": {
-      "Style": "Basic",
-      "Position X": "489.1",
-      "Position Y": "260.0"
     }
   },
   "SwingAnimations": {
@@ -243,12 +222,45 @@
       "Block with axes": "false"
     }
   },
+  "ItemPhysics": {
+    "Enabled": true,
+    "Keybind": 0,
+    "Settings": {}
+  },
+  "AntiBlind": {
+    "Enabled": true,
+    "Keybind": 0,
+    "Settings": {
+      "Pumpkin overlay": "true"
+    }
+  },
+  "TargetDisplay": {
+    "Enabled": true,
+    "Keybind": 0,
+    "Settings": {
+      "Style": "Basic",
+      "Position X": "489.1",
+      "Position Y": "260.0"
+    }
+  },
   "CustomChat": {
     "Enabled": false,
     "Keybind": 0,
     "Settings": {
       "Design": "Basic",
       "Transparent": "true"
+    }
+  },
+  "Test": {
+    "Enabled": false,
+    "Keybind": 34,
+    "Settings": {}
+  },
+  "No64Limit": {
+    "Enabled": false,
+    "Keybind": 0,
+    "Settings": {
+      "Limit": "65.0"
     }
   },
   "Teams": {
@@ -260,28 +272,17 @@
       "Tablist color": "true"
     }
   },
-  "No64Limit": {
-    "Enabled": false,
-    "Keybind": 0,
-    "Settings": {
-      "Limit": "65.0"
-    }
-  },
   "FakePlayer": {
     "Enabled": false,
     "Keybind": 0,
     "Settings": {}
   },
-  "Test": {
-    "Enabled": false,
-    "Keybind": 34,
-    "Settings": {}
-  },
-  "Timer": {
+  "Disabler": {
     "Enabled": false,
     "Keybind": 0,
     "Settings": {
-      "Game speed": "3.4"
+      "Mode": "Miniblox",
+      "Vulcan mode": "[Sprint]"
     }
   },
   "CustomDisabler": {
@@ -295,19 +296,11 @@
       "C0B Actions": "[START_SNEAKING, STOP_SNEAKING, START_SPRINTING, STOP_SPRINTING, RIDING_JUMP, OPEN_INVENTORY]"
     }
   },
-  "Disabler": {
+  "Timer": {
     "Enabled": false,
     "Keybind": 0,
     "Settings": {
-      "Mode": "Miniblox",
-      "Vulcan mode": "[Sprint]"
-    }
-  },
-  "ClickGUI": {
-    "Enabled": false,
-    "Keybind": 54,
-    "Settings": {
-      "Design": "Frames"
+      "Game speed": "3.4"
     }
   },
   "Interface": {
@@ -316,6 +309,22 @@
     "Settings": {
       "Gradient #1": "249,193,208,255",
       "Gradient #2": "28,161,233,255"
+    }
+  },
+  "Watermark": {
+    "Enabled": true,
+    "Keybind": 0,
+    "Settings": {
+      "Design": "Big",
+      "Blur": "true",
+      "Bloom": "true"
+    }
+  },
+  "ClickGUI": {
+    "Enabled": false,
+    "Keybind": 54,
+    "Settings": {
+      "Design": "Frames"
     }
   },
   "ModuleList": {
@@ -342,15 +351,6 @@
       "Suffix separator": " ",
       "Space out": "true",
       "Background": "true",
-      "Blur": "true",
-      "Bloom": "true"
-    }
-  },
-  "Watermark": {
-    "Enabled": true,
-    "Keybind": 0,
-    "Settings": {
-      "Design": "Big",
       "Blur": "true",
       "Bloom": "true"
     }
