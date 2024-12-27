@@ -3,7 +3,7 @@
     "Enabled": false,
     "Keybind": 19,
     "Settings": {
-      "Auto-block mode": "Fake",
+      "Auto-block mode": "Intave",
       "Sort mode": "Distance",
       "Click mode": "CPS",
       "Targets": "[Players]",
@@ -16,8 +16,8 @@
       "Keep-sprint": "true",
       "Perfect Hit": "false",
       "Sprint fix": "false",
-      "Enable smoothing": "true",
-      "Smoothing value": "61.6",
+      "Enable smoothing": "false",
+      "Smoothing value": "46.4",
       "Smoothing mode": "Constant"
     }
   },
@@ -64,7 +64,7 @@
     "Enabled": true,
     "Keybind": 0,
     "Settings": {
-      "Items": "[Swords, Consumables]",
+      "Items": "[Swords]",
       "Sword mode": "Vanilla",
       "Consumable mode": "BlocksMC",
       "Bow mode": "Intave",
