@@ -2,6 +2,7 @@
   "Last updated": "12/16/2024 10:26PM",
   "Configs": {
     "hypixel": "cfg/hypixel.json",
+    "HypixelNew": "cfg/HypixelNew.json",
     "intave": "cfg/intave.json"
   }
 }
