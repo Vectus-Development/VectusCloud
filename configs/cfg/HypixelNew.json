@@ -1,6 +1,6 @@
 {
   "KillAura": {
-    "Enabled": false,
+    "Enabled": true,
     "Keybind": 19,
     "Settings": {
       "Auto-block mode": "Intave",
@@ -76,7 +76,7 @@
     "Enabled": false,
     "Keybind": 44,
     "Settings": {
-      "Mode": "Watchdog",
+      "Mode": "WatchdogTest",
       "Motion speed": "0.5"
     }
   },
@@ -137,8 +137,8 @@
     "Enabled": false,
     "Keybind": 23,
     "Settings": {
-      "Delay": "16.0",
-      "Starting delay": "105.0",
+      "Delay": "50.0",
+      "Starting delay": "153.0",
       "Reverse": "false",
       "Auto close": "false",
       "Title check": "true"
@@ -148,8 +148,8 @@
     "Enabled": false,
     "Keybind": 23,
     "Settings": {
-      "Minimum Delay": "15.0",
-      "Maximum Delay": "86.0",
+      "Minimum Delay": "74.0",
+      "Maximum Delay": "229.0",
       "Inventory Only": "true",
       "Exit On Enemy Near": "false",
       "Start Delay": "50.0",
@@ -171,7 +171,7 @@
     }
   },
   "NoFall": {
-    "Enabled": false,
+    "Enabled": true,
     "Keybind": 49,
     "Settings": {
       "Mode": "Watchdog"
@@ -340,8 +340,8 @@
     "Enabled": true,
     "Keybind": 0,
     "Settings": {
-      "Gradient #1": "255,0,252,255",
-      "Gradient #2": "0,155,255,255"
+      "Gradient #1": "0,187,255,255",
+      "Gradient #2": "0,98,255,255"
     }
   },
   "ClickGUI": {
@@ -355,7 +355,7 @@
     "Enabled": true,
     "Keybind": 0,
     "Settings": {
-      "Design": "Big",
+      "Design": "Modern",
       "Blur": "true"
     }
   },
@@ -364,13 +364,13 @@
     "Keybind": 0,
     "Settings": {
       "Hidden categories": "[Client]",
-      "Font": "GoogleSansDisplay",
+      "Font": "Exhibition",
       "PublicSans style": "Medium",
       "GoogleSansDisplay style": "Medium",
       "Roboto style": "Regular",
       "MuseoSans style": "Regular",
-      "Outline": "Full",
-      "Font size": "8.0",
+      "Outline": "Left",
+      "Font size": "10.0",
       "Font shadow": "true",
       "Shadow range": "0.4",
       "Shadow color": "0,0,0,255",
@@ -378,9 +378,9 @@
       "Color mode": "Match interface",
       "Text gradient color 1": "54,54,190,255",
       "Text gradient color 2": "182,255,182,255",
-      "Y offset": "-1.0",
-      "X offset": "-1.0",
-      "Y padding": "-4.0",
+      "Y offset": "0.3",
+      "X offset": "0.5",
+      "Y padding": "-2.0",
       "X padding": "0.0",
       "Suffix": "true",
       "Suffix separator": "-",
