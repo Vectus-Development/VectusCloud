@@ -1,0 +1,394 @@
+{
+  "KillAura": {
+    "Enabled": false,
+    "Keybind": 19,
+    "Settings": {
+      "Auto-block mode": "Fake",
+      "Sort mode": "Distance",
+      "Click mode": "CPS",
+      "Targets": "[Players]",
+      "Minimal CPS": "7.0",
+      "Maximal CPS": "7.0",
+      "Search range": "3.6",
+      "Attack range": "3.1",
+      "Attack in-gui": "true",
+      "Lock-view": "false",
+      "Keep-sprint": "true",
+      "Perfect Hit": "false",
+      "Sprint fix": "false",
+      "Enable smoothing": "true",
+      "Smoothing value": "61.6",
+      "Smoothing mode": "Constant"
+    }
+  },
+  "Velocity": {
+    "Enabled": true,
+    "Keybind": 0,
+    "Settings": {
+      "Mode": "Simple",
+      "Horizontal": "0.0",
+      "Vertical": "100.0"
+    }
+  },
+  "Reach": {
+    "Enabled": false,
+    "Keybind": 0,
+    "Settings": {
+      "Reach distance": "4.79",
+      "Reach chance": "95.0"
+    }
+  },
+  "MoreKnockback": {
+    "Enabled": false,
+    "Keybind": 0,
+    "Settings": {
+      "Mode": "Legit WTap",
+      "Facing target only": "false",
+      "Reset event": "[On attack, On hurt-time, On hur-time]",
+      "Hurt-time": "[ 9 ]"
+    }
+  },
+  "CorrectMovement": {
+    "Enabled": false,
+    "Keybind": 0,
+    "Settings": {
+      "Mode": "Silent"
+    }
+  },
+  "Sprint": {
+    "Enabled": true,
+    "Keybind": 0,
+    "Settings": {}
+  },
+  "NoSlowdown": {
+    "Enabled": true,
+    "Keybind": 0,
+    "Settings": {
+      "Items": "[Swords, Consumables]",
+      "Sword mode": "Vanilla",
+      "Consumable mode": "BlocksMC",
+      "Bow mode": "Intave",
+      "Forward multiplier": "1.0",
+      "Strafe multiplier": "1.0"
+    }
+  },
+  "Speed": {
+    "Enabled": false,
+    "Keybind": 44,
+    "Settings": {
+      "Mode": "Watchdog",
+      "Motion speed": "0.5"
+    }
+  },
+  "Fly": {
+    "Enabled": false,
+    "Keybind": 33,
+    "Settings": {
+      "Mode": "Vanilla",
+      "Horizontal speed": "0.3",
+      "Vertical speed": "0.7",
+      "Instant stop": "true",
+      "Fake damage": "false"
+    }
+  },
+  "Jesus": {
+    "Enabled": false,
+    "Keybind": 0,
+    "Settings": {
+      "Mode": "Collision"
+    }
+  },
+  "Long Jump": {
+    "Enabled": false,
+    "Keybind": 0,
+    "Settings": {
+      "Mode": "Vulcan Old"
+    }
+  },
+  "FastPlace": {
+    "Enabled": true,
+    "Keybind": 0,
+    "Settings": {
+      "Delay": "1.0"
+    }
+  },
+  "Scaffold": {
+    "Enabled": false,
+    "Keybind": 45,
+    "Settings": {
+      "Keep Y": "false",
+      "Auto Jump": "true",
+      "Sneak": "false",
+      "Packet Sneak": "false",
+      "Sneak Every": "4.0",
+      "Swap": "true",
+      "Largest Stack Only": "false",
+      "Stack Size": "4.0",
+      "Sprint": "true",
+      "Sprint Mode": "Vanilla",
+      "Rotation Mode": "Watchdog",
+      "GCD": "false",
+      "Smooth Rotations": "false",
+      "Rotation Speed": "52.0",
+      "Place Mode": "Legit"
+    }
+  },
+  "ChestStealer": {
+    "Enabled": false,
+    "Keybind": 23,
+    "Settings": {
+      "Delay": "16.0",
+      "Starting delay": "105.0",
+      "Reverse": "false",
+      "Auto close": "false",
+      "Title check": "true"
+    }
+  },
+  "InventoryManager": {
+    "Enabled": false,
+    "Keybind": 23,
+    "Settings": {
+      "Minimum Delay": "15.0",
+      "Maximum Delay": "86.0",
+      "Inventory Only": "true",
+      "Exit On Enemy Near": "false",
+      "Start Delay": "50.0",
+      "Keep Sword": "true",
+      "Keep Pickaxe": "true",
+      "Keep Axe": "true",
+      "Keep Shovel": "false",
+      "Keep Bow": "false",
+      "Keep Food": "false",
+      "Sword Slot": "1.0",
+      "Pickaxe Slot": "2.0",
+      "Axe Slot": "3.0",
+      "Block Slot": "6.0",
+      "Shovel Slot": "4.0",
+      "Food Slot": "6.0",
+      "Bow Slot": "9.0",
+      "Keep X Blocks": "4.0",
+      "Keep X ThrowAbles": "4.0"
+    }
+  },
+  "NoFall": {
+    "Enabled": false,
+    "Keybind": 49,
+    "Settings": {
+      "Mode": "Watchdog"
+    }
+  },
+  "InventoryMove": {
+    "Enabled": true,
+    "Keybind": 0,
+    "Settings": {}
+  },
+  "ItemPhysics": {
+    "Enabled": true,
+    "Keybind": 0,
+    "Settings": {}
+  },
+  "AntiBlind": {
+    "Enabled": true,
+    "Keybind": 0,
+    "Settings": {
+      "Pumpkin overlay": "true"
+    }
+  },
+  "BlockAnimations": {
+    "Enabled": true,
+    "Keybind": 0,
+    "Settings": {
+      "Block style": "Exhibition",
+      "Exhibition version": "v1",
+      "Break blocks on block-hit": "true",
+      "Block with axes": "false"
+    }
+  },
+  "TargetDisplay": {
+    "Enabled": true,
+    "Keybind": 0,
+    "Settings": {
+      "Style": "Stitch",
+      "Position X": "800.0",
+      "Position Y": "260.0"
+    }
+  },
+  "ESP": {
+    "Enabled": true,
+    "Keybind": 0,
+    "Settings": {
+      "Entities": "[Players]",
+      "Custom player color": "false",
+      "Player color": "255,140,0,255",
+      "Monster color": "255,79,79,255",
+      "Animal color": "24,253,120,255",
+      "Item color": "220,49,133,255",
+      "Show nametags": "true",
+      "Nametag style": "Classic",
+      "Render for self": "true"
+    }
+  },
+  "CustomChat": {
+    "Enabled": true,
+    "Keybind": 0,
+    "Settings": {
+      "Design": "Vanilla",
+      "Transparent": "true"
+    }
+  },
+  "ItemModel": {
+    "Enabled": true,
+    "Keybind": 0,
+    "Settings": {
+      "Item X": "0.54",
+      "Item Y": "-0.26",
+      "Item Z": "-0.69",
+      "Item scale": "0.21",
+      "Item angle": "40.0"
+    }
+  },
+  "SwingAnimations": {
+    "Enabled": true,
+    "Keybind": 0,
+    "Settings": {
+      "Swing speed": "0.4",
+      "Smooth swing": "true"
+    }
+  },
+  "TileEntityESP": {
+    "Enabled": true,
+    "Keybind": 0,
+    "Settings": {
+      "Entities": "[Chest, Ender chest, Mob spawner]"
+    }
+  },
+  "Test": {
+    "Enabled": false,
+    "Keybind": 0,
+    "Settings": {}
+  },
+  "FakePlayer": {
+    "Enabled": false,
+    "Keybind": 0,
+    "Settings": {}
+  },
+  "Teams": {
+    "Enabled": false,
+    "Keybind": 0,
+    "Settings": {
+      "Scoreboard": "false",
+      "Armor color": "false",
+      "Tablist color": "true"
+    }
+  },
+  "No64Limit": {
+    "Enabled": false,
+    "Keybind": 0,
+    "Settings": {
+      "Limit": "65.0"
+    }
+  },
+  "BrandSpoofer": {
+    "Enabled": true,
+    "Keybind": 0,
+    "Settings": {
+      "Brand": "Lunar"
+    }
+  },
+  "Timer": {
+    "Enabled": false,
+    "Keybind": 0,
+    "Settings": {
+      "Game speed": "3.4"
+    }
+  },
+  "Blink": {
+    "Enabled": false,
+    "Keybind": 0,
+    "Settings": {
+      "Pulse": "false",
+      "Blink delay": "500.0"
+    }
+  },
+  "CustomDisabler": {
+    "Enabled": false,
+    "Keybind": 0,
+    "Settings": {
+      "Packet type": "[Incoming, Outgoing]",
+      "Outgoing": "[C0BPacketEntityAction]",
+      "Incoming": "[S0EPacketSpawnObject]",
+      "C07 Actions": "[]",
+      "C0B Actions": "[START_SPRINTING, STOP_SPRINTING]"
+    }
+  },
+  "Disabler": {
+    "Enabled": false,
+    "Keybind": 0,
+    "Settings": {
+      "Mode": "Miniblox",
+      "Vulcan mode": "[Sprint]"
+    }
+  },
+  "PostProcessing": {
+    "Enabled": true,
+    "Keybind": 0,
+    "Settings": {
+      "Save CPU": "false"
+    }
+  },
+  "Interface": {
+    "Enabled": true,
+    "Keybind": 0,
+    "Settings": {
+      "Gradient #1": "255,0,252,255",
+      "Gradient #2": "0,155,255,255"
+    }
+  },
+  "ClickGUI": {
+    "Enabled": false,
+    "Keybind": 54,
+    "Settings": {
+      "Design": "Frames"
+    }
+  },
+  "Watermark": {
+    "Enabled": true,
+    "Keybind": 0,
+    "Settings": {
+      "Design": "Big",
+      "Blur": "true"
+    }
+  },
+  "ModuleList": {
+    "Enabled": true,
+    "Keybind": 0,
+    "Settings": {
+      "Hidden categories": "[Client]",
+      "Font": "GoogleSansDisplay",
+      "PublicSans style": "Medium",
+      "GoogleSansDisplay style": "Medium",
+      "Roboto style": "Regular",
+      "MuseoSans style": "Regular",
+      "Outline": "Full",
+      "Font size": "8.0",
+      "Font shadow": "true",
+      "Shadow range": "0.4",
+      "Shadow color": "0,0,0,255",
+      "Letter casing": "Normal",
+      "Color mode": "Match interface",
+      "Text gradient color 1": "54,54,190,255",
+      "Text gradient color 2": "182,255,182,255",
+      "Y offset": "-1.0",
+      "X offset": "-1.0",
+      "Y padding": "-4.0",
+      "X padding": "0.0",
+      "Suffix": "true",
+      "Suffix separator": "-",
+      "Space out": "false",
+      "Background": "true",
+      "Background color": "0,0,0,81",
+      "Blur": "true",
+      "Bloom": "false"
+    }
+  }
+}
