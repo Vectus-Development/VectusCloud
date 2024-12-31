@@ -1,6 +1,6 @@
 {
   "KillAura": {
-    "Enabled": true,
+    "Enabled": false,
     "Keybind": 19,
     "Settings": {
       "Auto-block mode": "Intave",
@@ -8,13 +8,14 @@
       "Click mode": "CPS",
       "Targets": "[Players]",
       "Minimal CPS": "7.0",
-      "Maximal CPS": "7.0",
+      "Maximal CPS": "10.0",
       "Search range": "3.6",
       "Attack range": "3.1",
       "Attack in-gui": "true",
       "Lock-view": "false",
       "Keep-sprint": "true",
-      "Perfect Hit": "false",
+      "Perfect hit": "false",
+      "Use closest aim point": "true",
       "Sprint fix": "false",
       "Enable smoothing": "false",
       "Smoothing value": "46.4",
@@ -43,6 +44,7 @@
     "Keybind": 0,
     "Settings": {
       "Mode": "Legit WTap",
+      "Packet mode": "Packet",
       "Facing target only": "false",
       "Reset event": "[On attack, On hurt-time, On hur-time]",
       "Hurt-time": "[ 9 ]"
@@ -76,7 +78,7 @@
     "Enabled": false,
     "Keybind": 44,
     "Settings": {
-      "Mode": "WatchdogTest",
+      "Mode": "Watchdog",
       "Motion speed": "0.5"
     }
   },
@@ -98,7 +100,7 @@
       "Mode": "Collision"
     }
   },
-  "Long Jump": {
+  "LongJump": {
     "Enabled": false,
     "Keybind": 0,
     "Settings": {
@@ -108,9 +110,7 @@
   "FastPlace": {
     "Enabled": true,
     "Keybind": 0,
-    "Settings": {
-      "Delay": "1.0"
-    }
+    "Settings": {}
   },
   "Scaffold": {
     "Enabled": false,
@@ -137,8 +137,8 @@
     "Enabled": false,
     "Keybind": 23,
     "Settings": {
-      "Delay": "50.0",
-      "Starting delay": "153.0",
+      "Delay": "64.0",
+      "Starting delay": "178.0",
       "Reverse": "false",
       "Auto close": "false",
       "Title check": "true"
@@ -148,11 +148,11 @@
     "Enabled": false,
     "Keybind": 23,
     "Settings": {
-      "Minimum Delay": "74.0",
-      "Maximum Delay": "229.0",
+      "Min Delay": "65.0",
+      "Max Delay": "136.0",
       "Inventory Only": "true",
-      "Exit On Enemy Near": "false",
-      "Start Delay": "50.0",
+      "Exit On Enemy": "true",
+      "Start Delay": "139.0",
       "Keep Sword": "true",
       "Keep Pickaxe": "true",
       "Keep Axe": "true",
@@ -166,12 +166,12 @@
       "Shovel Slot": "4.0",
       "Food Slot": "6.0",
       "Bow Slot": "9.0",
-      "Keep X Blocks": "4.0",
-      "Keep X ThrowAbles": "4.0"
+      "Keep Blocks": "3.0",
+      "Keep Throwables": "3.0"
     }
   },
   "NoFall": {
-    "Enabled": true,
+    "Enabled": false,
     "Keybind": 49,
     "Settings": {
       "Mode": "Watchdog"
@@ -202,15 +202,6 @@
       "Exhibition version": "v1",
       "Break blocks on block-hit": "true",
       "Block with axes": "false"
-    }
-  },
-  "TargetDisplay": {
-    "Enabled": true,
-    "Keybind": 0,
-    "Settings": {
-      "Style": "Stitch",
-      "Position X": "800.0",
-      "Position Y": "260.0"
     }
   },
   "ESP": {
@@ -340,8 +331,8 @@
     "Enabled": true,
     "Keybind": 0,
     "Settings": {
-      "Gradient #1": "0,187,255,255",
-      "Gradient #2": "0,98,255,255"
+      "Gradient #1": "255,110,45,255",
+      "Gradient #2": "255,11,202,255"
     }
   },
   "ClickGUI": {
@@ -352,10 +343,10 @@
     }
   },
   "Watermark": {
-    "Enabled": true,
+    "Enabled": false,
     "Keybind": 0,
     "Settings": {
-      "Design": "Modern",
+      "Design": "Neverlose Stitch",
       "Blur": "true"
     }
   },
@@ -364,12 +355,12 @@
     "Keybind": 0,
     "Settings": {
       "Hidden categories": "[Client]",
-      "Font": "Exhibition",
+      "Font": "MuseoSans",
       "PublicSans style": "Medium",
       "GoogleSansDisplay style": "Medium",
       "Roboto style": "Regular",
       "MuseoSans style": "Regular",
-      "Outline": "Left",
+      "Outline": "Top",
       "Font size": "10.0",
       "Font shadow": "true",
       "Shadow range": "0.4",
@@ -380,15 +371,26 @@
       "Text gradient color 2": "182,255,182,255",
       "Y offset": "0.3",
       "X offset": "0.5",
-      "Y padding": "-2.0",
+      "Y padding": "-4.0",
       "X padding": "0.0",
       "Suffix": "true",
-      "Suffix separator": "-",
+      "Suffix separator": "#",
       "Space out": "false",
       "Background": "true",
       "Background color": "0,0,0,81",
       "Blur": "true",
       "Bloom": "false"
+    }
+  },
+  "TargetDisplay": {
+    "Enabled": true,
+    "Keybind": 0,
+    "X": 847.5,
+    "Y": 497.3722,
+    "Width": 135.0,
+    "Height": 38.0,
+    "Settings": {
+      "Style": "Stitch"
     }
   }
 }
